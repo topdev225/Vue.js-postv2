@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12"
+   height="8"
+   viewBox="0 0 12 8"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="close-chevron.svg">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="23.25"
+     inkscape:cx="6"
+     inkscape:cy="4"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <path
+       id="j41fa"
+       d="M1295.486 34.62a.645.645 0 0 1-.143.401l-4.882 6.057a.584.584 0 0 1-.487.243.584.584 0 0 1-.487-.243l-4.854-6.043a.606.606 0 0 1-.129-.458.59.59 0 0 1 .23-.415.606.606 0 0 1 .458-.129.59.59 0 0 1 .415.23l4.367 5.426 4.396-5.455a.59.59 0 0 1 .415-.23.606.606 0 0 1 .458.13.584.584 0 0 1 .243.486z" />
+    <linearGradient
+       id="j41fb"
+       x1="1295.49"
+       x2="1284.5"
+       y1="40.89"
+       y2="37.66"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#cbcbcb"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#9b9b9b"
+         id="stop10" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g12">
+    <g
+       transform="translate(-1284 -34)"
+       id="g14">
+      <use
+         fill="url(#j41fb)"
+         xlink:href="#j41fa"
+         id="use16" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,133 @@
+.btn {
+  color: $white;
+  min-width: initial !important;
+  // updated gradient syntax for Firefox and Safari
+  background-image: linear-gradient(to top, #353535, #575757);
+
+  &:hover {
+
+  }
+}
+
+.btn-primary {
+  // updated gradient syntax for Firefox and Safari
+  background-image: linear-gradient(to top, $action-color, lighten($action-color, 10%));
+
+  &:active {
+    background-color: darken($action-color, 3%);
+  }
+}
+
+.btn-danger {
+  // updated gradient syntax for Firefox and Safari
+  background-image: linear-gradient(to top, $danger-color, lighten($danger-color, 10%));
+
+  &:active {
+    background-color: darken($danger-color, 3%);
+  }
+}
+
+.btn.active {
+  background: linear-gradient(to bottom, $orange, mix($black, $orange, 20%));
+  color: $white;
+
+  &:hover,
+  &:active {
+
+  }
+}
+
+.btn--large {
+  padding: 9px 12px 10px;
+  font-size: rem-calc(18);
+}
+
+.btn--marginRight {
+  margin-right: 1rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.btn--marginBottom {
+  margin-bottom: 1rem;
+}
+
+.btn--noShadow {
+  box-shadow: none;
+}
+
+.btn--grayText {
+  color: #ccc !important;
+
+  &.btn--grayText--active {
+    color: $white !important;
+  }
+}
+
+.btn--icon {
+  svg {
+    width: rem-calc(14);
+    height: rem-calc(14);
+  }
+}
+
+.btn--datepicker {
+  position: relative;
+
+  svg {
+    vertical-align: top;
+    margin-top: rem-calc(2);
+  }
+}
+
+.btn--tall {
+  padding-top: rem-calc(14);
+  padding-bottom: rem-calc(14);
+
+  &:hover {
+    background-position: 0 rem-calc(-20);
+  }
+
+  &:active {
+    background-position: 0 rem-calc(-44);
+  }
+}
+
+.btn.expanded {
+  width: 100%;
+}
+
+.btn-anchor {
+  color: $anchor-color;
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+    color: $anchor-color-hover;
+  }
+}
+
+.button-group {
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.25), 0 0 0 3px rgba(0,0,0,0.5), 1px 1px 0 3px rgba(255,255,255,0.15), 1px 1px 2px rgba(0,0,0,0.5);
+  border-radius: rem-calc(4);
+  display: inline-block;
+  vertical-align: top;
+
+  .btn {
+    box-shadow: none;
+    border-radius: 0;
+    border-right: 1px solid mix($white, $black, 25%);
+    box-shadow: inset -1px 0 1px rgba(255, 255, 255, 0.25), 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+    &:first-child {
+      border-radius: rem-calc(4) 0 0 rem-calc(4);
+    }
+
+    &:last-child {
+      border-right: 0;
+      border-radius: 0 rem-calc(4) rem-calc(4) 0;
+    }
+  }
+}

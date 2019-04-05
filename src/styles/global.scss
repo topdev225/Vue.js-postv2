@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'poppinsthin';
+  src: url('../assets/fonts/poppins/poppins-thin-webfont.woff2') format('woff2'),
+  url('../assets/fonts/poppins/poppins-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('../assets/fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'),
+  url('../assets/fonts/poppins/poppins-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../assets/fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
+  url('../assets/fonts/poppins/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html,
+body {
+  background: $white;
+  color: $link-grey;
+  font-family: $default-font-stack;
+  font-weight: normal;
+  font-size: 0.925em;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  color: $medium-grey;
+  font-weight: bold;
+  font-size: 2.0em;
+}
+
+h2, .h2 {
+  color: $medium-grey;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h3, .h3 {
+  color: $medium-grey;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+h4, .h4 {
+  color: $medium-grey;
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+h5, .h5 {
+  color: $medium-grey;
+  font-weight: bold;
+  font-size: 0.25em;
+}
+
+#app {
+  height: 100%;
+  position: relative;
+  padding-top: 1rem;
+  color: $white;
+}
+
+.hidden {
+  display: none;
+}
+
+hr {
+  border-bottom: 2px solid rgba($light-medium-grey, 0.5);
+}
+
+.hr--small {
+  margin: 0.5rem auto;
+}
+
+.hr--light {
+  border-color: rgba($light-medium-grey, 0.25);
+}
+
+.row--margin {
+  margin-bottom: 1rem;
+}
+
+.page-header {
+  margin-bottom: 1rem;
+}
+
+.page-main {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  margin: 0;
+  font-size: rem-calc(24);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.page-title--small {
+  font-size: rem-calc(20);
+  margin-bottom: 0.5rem;
+}
+
+.fa-icon {
+  // display: inline-block;
+  // vertical-align: middle;
+}
+
+// do NOT show the not-allowed cursor over disabled elements
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+.post-button-green {
+  background-color: $bright-green;
+  border-radius: 1.5em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 3.0em;
+  line-height: 1.2em;
+  max-width: 100%;
+  padding: 1.0em 2.0em;
+}
+
+.post-button-grey {
+  background-color: $link-grey;
+  border-radius: 1.5em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 3.0em;
+  line-height: 1.2em;
+  max-width: 100%;
+  padding: 1.0em 2.0em;
+}
+
+.post-button-white {
+  background-color: $white;
+  border-radius: 1.5em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 3.0em;
+  line-height: 1.2em;
+  max-width: 100%;
+  padding: 1.0em 2.0em;
+  text-align: center;
+}
+
+.post-button-white::first-letter {
+	color: $bright-green;
+	font-weight: bold;
+}
+
+.small-post-button-green {
+  background-color: $bright-green;
+  border-radius: 1.0em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 2.0em;
+  line-height: 0.8em;
+  max-width: 100%;
+  padding: 0.66em 1.5em;
+}
+
+.small-post-button-grey {
+  background-color: $link-grey;
+  border-radius: 1.0em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 2.0em;
+  line-height: 0.8em;
+  max-width: 100%;
+  padding: 0.66em 1.5em;
+}
+
+.post-button-white {
+  background-color: $white;
+  border-radius: 1.0em;
+  color: black;
+  cursor: pointer;
+  font-family: $narrow-font-stack;
+  font-weight: bold;
+  height: 2.0em;
+  line-height: 0.8em;
+  max-width: 100%;
+  padding: 0.66em 1.5em;
+  text-align: center;
+}
+
+.low-drop-shadow {
+  -webkit-box-shadow: 0px 10px 18px -18px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 18px -18px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 18px -18px rgba(0,0,0,0.2);
+}
+
+.high-drop-shadow {
+  -webkit-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 18px -9px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,17 @@
+---
+
+pipeline:
+  build:
+    image: node:alpine
+    commands:
+      - apk add --no-cache make python2 libsass-dev alpine-sdk
+      - npm install
+      - make clean-package package
+      - ls postv2-*.tgz
+
+  s3:
+    image: plugins/s3
+    bucket: futuri-ci-builds
+    region: us-east-1
+    source: "postv2-*.tgz"
+    target: /streamon.git/cloudlogger/postv2/${DRONE_BRANCH}

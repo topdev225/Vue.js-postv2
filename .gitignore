@@ -1,0 +1,47 @@
+# Python
+*.py[cod]
+*.egg*
+local_dev.py
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Tags file
+tags
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store*
+thumbs.db
+Thumbs.db
+Desktop.ini
+*.orig
+
+# Front-end files
+node_modules/
+src/vendor/
+.sass-cache
+dist/
+npm-debug.log
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
+postv2-*.tgz
